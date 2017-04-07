@@ -1,0 +1,29 @@
+.form-group h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    text-align: justify;
+}
+
+/* .left-separator {
+    border-left: 1px solid #888;
+} */
+
+.right-separator {
+    border-right: 1px solid #888;
+}
+
+/*div.section-title{
+  margin-bottom: 30px;
+}
+
+address {
+  text-align: center;
+  font-size: 16px;
+}
+
+.size {
+  margin-right: 60px;
+} */

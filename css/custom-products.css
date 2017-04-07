@@ -1,0 +1,9 @@
+.img-product  {
+  width: 400px;
+  margin-top: 20px;
+}
+p.content-justify {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 16px;
+}

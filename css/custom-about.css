@@ -1,0 +1,21 @@
+/* MEU CSS */
+
+.img-about {
+  margin-right: 20px;
+  width: 400px;
+  height: 400px;
+}
+
+p.content-justify {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.carousel-about {
+    padding: 20px;
+}
+
+.img-logo {
+	size: 50px;
+}
