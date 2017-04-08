@@ -13,12 +13,16 @@ body {
 }
 
 .header {
-  padding-top: 20px;
   padding-right: 5px;
   padding-left: 5px;
-  padding-bottom: 20px;
   -webkit-box-shadow: 0 1px 0px rgba(0,0,0,0.15);
   box-shadow: 0 1px 0px rgba(0,0,0,0.15);
+}
+
+.header .navbar-default {
+  background-color: transparent;
+  border: none;
+  min-height: 110px;
 }
 
 .header h2 {
@@ -48,6 +52,8 @@ p, div {
 
 .main-menu {
   background-color: transparent;
+  vertical-align: middle;
+  margin-top: 45px;
 }
 
 .main-menu > li > a,
@@ -67,6 +73,11 @@ p, div {
 .main-menu > li.active > a, 
 .main-menu > li > a:hover {
   color: #F48FB1;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: transparent;
+  color: #EC407A;
 }
 
 .main-menu > li > a.social-icons-menu {
@@ -102,6 +113,7 @@ div.testimonials-carousel > .carousel-control, div.carousel-about > .carousel-co
   border-left: none;
   text-decoration: italic;
 }
+
 .img-logo{
   width: 250px;
 }
